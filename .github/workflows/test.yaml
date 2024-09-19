@@ -10,8 +10,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
       - name: Get Date & Time
         uses: jfe726/actions-demo@main
+        
       - name: List files
         shell: bash
         run: |
