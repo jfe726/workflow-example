@@ -1,0 +1,12 @@
+name: Example Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  example:
+    name: Example Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Date & Time
+        uses: jfe726/jfe-example-action@main
