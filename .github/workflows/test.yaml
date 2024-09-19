@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Get Date & Time
-        uses: jfe726/actions-demo@main
+        uses: jfe726/actions-demo@v1
         
       - name: List files
         shell: bash
